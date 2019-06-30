@@ -45,6 +45,6 @@ plt.setp(ax1.get_xticklabels(), ha="right",rotation=45)
 plt.title(plotTitle,fontdict = {'fontsize' : 20})
 
 fig.tight_layout()
-plt.savefig(saveImagePath, dpi = 400)
+plt.savefig(saveImagePath, dpi = 400,facecolor=fig.get_facecolor())
 
 plt.show()
